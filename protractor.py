@@ -115,7 +115,7 @@ class Protractor(QLabel):
         self.setWindowFlags(Qt.WindowStaysOnTopHint)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         # self.setAttribute(Qt.WA_TransparentForMouseEvents)
-        self.setStyleSheet("QLabel#angle { font-size: 20px; background-color: white; padding: 2px; }")
+        self.setStyleSheet("QLabel#angle { font-size: 20px; background-color: silver; color: black; padding: 2px; }")
         self.setCursor(Qt.OpenHandCursor)
         self.handleC = Handle(self)
         self.handle1 = Handle(self)
